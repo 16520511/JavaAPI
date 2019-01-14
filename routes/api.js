@@ -15,7 +15,7 @@ const Lesson = require('../models/lesson');
 const Cart = require('../models/cart');
 
 // mongoose.connect('mongodb://localhost/onlinecourse');
-mongoose.connect('mongodb://lokatto:gotohell8900@ds257054.mlab.com:57054/javaapi');
+mongoose.connect('mongodb://lokatto:lokatto1@ds257054.mlab.com:57054/javaapi');
 
 const api = express.Router();
 
